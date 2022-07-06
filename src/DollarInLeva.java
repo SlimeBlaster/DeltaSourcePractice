@@ -4,7 +4,7 @@ public class DollarInLeva{
         Scanner s = new Scanner(System.in);
         int dollar = s.nextInt();
         double leva = 1.64549;
-        double DollarInLeva = leva * dollar;
+        double DollarsInLeva = leva * dollar;
         System.out.print((Math.floor(levaInDollar * 100)) / 100);
     }
 }
