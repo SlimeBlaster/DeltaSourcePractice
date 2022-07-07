@@ -7,7 +7,7 @@ public class SumOfSeconds {
         int sumOfSeconds = 0;
         int minutes = 0;
         int seconds = 0;
-        while(x == 3){
+        while(x <= 3){
             System.out.print("Write for how many seconds did this racer finished: ");
             int racerSeconds = sc.nextInt();
             if (racerSeconds > 0 && racerSeconds < 51){
@@ -15,7 +15,7 @@ public class SumOfSeconds {
                 x++;
             }
             else{
-                System.out.print("Write number in the range");
+                System.out.print("Write number in the range!");
             }
         }
          minutes = sumOfSeconds / 60;
