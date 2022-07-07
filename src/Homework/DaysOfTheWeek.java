@@ -35,7 +35,4 @@ public class DaysOfTheWeek {
     }
         System.out.println(day);
     }
-
-
-
 }
