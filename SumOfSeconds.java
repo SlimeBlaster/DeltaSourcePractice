@@ -15,7 +15,7 @@ public class SumOfSeconds {
                 x++;
             }
             else{
-                System.out.print("Write number in the range!");
+                System.out.println("Write number in the range!");
             }
         }
          minutes = sumOfSeconds / 60;
