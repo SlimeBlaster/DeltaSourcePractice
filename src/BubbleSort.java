@@ -18,7 +18,6 @@ public class BubbleSort {
                     arr[i] = currNum;
                 }
             }
-
         }
         return arr;
     }
